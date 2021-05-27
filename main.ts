@@ -1,3 +1,5 @@
+import { info } from "console";
+
 async function jobArrived(s: Switch, flowElement: FlowElement, job: Job) {
   let str = await (await flowElement.getPropertyStringValue("String")).toString();
   let separator = await (await flowElement.getPropertyStringValue("Separator")).toString();

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 async function jobArrived(s, flowElement, job) {
     let str = await (await flowElement.getPropertyStringValue("String")).toString();
     let separator = await (await flowElement.getPropertyStringValue("Separator")).toString();
