@@ -1,6 +1,5 @@
 {
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "@types/node": "12.12.70",
         "@types/switch-scripting": "https://github.com/enfocus-switch/types-switch-scripting/archive/1.0.1.tar.gz"
